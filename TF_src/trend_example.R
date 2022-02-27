@@ -1,7 +1,5 @@
 library(Rcpp)
 
-setwd("C:/Users/ryosu/OneDrive/R/script/Rcpp/trendfilter/zikken/github")
-
 Rcpp::sourceCpp("trend_admm_prox.cpp")
 
 
